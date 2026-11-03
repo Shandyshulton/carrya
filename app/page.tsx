@@ -9,10 +9,12 @@ import Impact from "@/components/Impact";
 import OrderForm from "@/components/OrderForm";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import StructuredData from "@/components/StructuredData";
 
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <Navbar />
       <main>
         <Hero />

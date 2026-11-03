@@ -47,6 +47,20 @@ export const metadata: Metadata = {
       "Totebag denim upcycle buatan tangan yang fungsional, stylish, dan berkelanjutan.",
     images: ["/carrya-logo.png"],
   },
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  category: "fashion",
 };
 
 export default function RootLayout({
