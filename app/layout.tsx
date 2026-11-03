@@ -38,14 +38,12 @@ export const metadata: Metadata = {
     siteName: "CARRYA",
     locale: "id_ID",
     type: "website",
-    images: [{ url: "/carrya-logo.png", width: 640, height: 640, alt: "CARRYA" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "CARRYA - Upcycled Denim Totebag",
     description:
       "Totebag denim upcycle buatan tangan yang fungsional, stylish, dan berkelanjutan.",
-    images: ["/carrya-logo.png"],
   },
   alternates: {
     canonical: "/",
