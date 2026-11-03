@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styling & Denim Texture Simulation */
+body {
+  font-family: var(--font-jakarta), "Plus Jakarta Sans", sans-serif;
+  background-color: #f9f7f2;
+  color: #111d2e;
+  overflow-x: hidden;
+}
+
+/* Subtle denim stitch border effect */
+.yellow-stitch {
+  border-top: 2px dashed #e6a100;
+}
+
+.denim-card-shadow {
+  box-shadow: 0 10px 30px -5px rgba(27, 45, 69, 0.15);
+}
+
+/* Glassmorphism */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e1e9f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #355c8c;
+  border-radius: 4px;
+}
