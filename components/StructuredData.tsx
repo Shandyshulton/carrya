@@ -1,4 +1,4 @@
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://carrya.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://carrya.ac.id";
 
 export default function StructuredData() {
   const jsonLd = {
